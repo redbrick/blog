@@ -1,7 +1,7 @@
 ---
-title: 2024-01-31-redbrick-maintenance-with-nomad
+title: Redbrick Maintenance with Nomad
 created: 2024-01-27T02:46:52
-modified: 2024-01-30T02:58:37
+modified: 2024-01-30T03:49:22
 tags:
   - admins
   - nomad
