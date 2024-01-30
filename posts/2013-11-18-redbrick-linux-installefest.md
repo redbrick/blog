@@ -1,14 +1,12 @@
 ---
-title: Redbrick Linux Installfest - Redbrick Blog
+title: Redbrick Linux Installfest
 created: 2013-11-18T00:00:00
-modified: 2024-01-30T03:06:16
+modified: 2024-01-30T03:20:19
 tags:
   - linux
   - installfest
 author: polka
 ---
-
-# Redbrick Linux Installfest - Redbrick Blog
 
 This year we were able to host our annual Installfest, thanks to the support of Ubuntu Ireland. We offered three options for attendees, Ubuntu 12.04, OpenSuse 13.1, and Mint 15. With most of attendees choosing to install Ubuntu as a dual boot, it was simple business from there, except for some pesky Windows 8 machines.
 

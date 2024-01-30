@@ -1,12 +1,10 @@
 ---
-title: Missing Member - Redbrick Blog
+title: Missing Member
 created: 2012-02-04T00:00:00
-modified: 2024-01-30T03:04:37
+modified: 2024-01-30T03:21:07
 tags:
   - FindPaulB
 ---
-
-# Missing Member - Redbrick Blog
 
 One of our members has been reported as missing to the Gardai.
 

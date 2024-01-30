@@ -1,11 +1,9 @@
 ---
 title: New Year. Big Plans
 created: 2011-09-23T00:00:00
-modified: 2024-01-30T03:00:23
+modified: 2024-01-30T03:21:23
 author: tziegler
 ---
-
-# New Year. Big Plans
 
 So it’s the beginning of another year and we’ve got an awful lot going on. We have the new website and branding completed over the summer and we have some great things lined up for the next few months.
 

@@ -1,13 +1,11 @@
 ---
-title: Welcome Freshers! - Redbrick Blog
+title: Welcome Freshers!
 created: 2013-09-23T00:00:00
-modified: 2024-01-30T03:05:26
+modified: 2024-01-30T03:20:45
 tags:
   - freshers
 author: polka
 ---
-
-# Welcome Freshers! - Redbrick Blog
 
 Hey everyone.  
 We’d all like to welcome all our incoming first years to DCU, welcome to university! We will be meeting you during Freshers week, and again on Clubs and Societies Days.

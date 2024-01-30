@@ -1,15 +1,13 @@
 ---
 title: "NFS Out Of Sync: Apache Outage"
 created: 2018-12-08T00:00:00
-modified: 2024-01-30T03:09:23
+modified: 2024-01-30T03:19:53
 tags:
   - admins
   - apache
   - nfs
 author: greenday
 ---
-
-# NFS Out Of Sync: Apache Outage
 
 Alert Recieved
 --------------

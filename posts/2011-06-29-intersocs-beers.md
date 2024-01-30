@@ -1,13 +1,11 @@
 ---
 title: Intersocs Beers
 created: 2011-06-29T00:00:00
-modified: 2024-01-30T02:59:19
+modified: 2024-01-30T03:21:25
 tags:
   - intersocs
 author: vadimck
 ---
-
-# Intersocs Beers
 
 This Friday, redbrick will be joined by other networking societies across Ireland and the UK for some drinks.
 

@@ -1,13 +1,11 @@
 ---
 title: Digital Discovery Week
 created: 2011-11-13T00:00:00
-modified: 2024-01-30T03:02:45
+modified: 2024-01-30T03:21:13
 tags:
   - techweek
 author: tziegler
 ---
-
-# Digital Discovery Week
 
 Redbrick in association with the [Student’s Union](http://www.dcusu.ie/) are extremely proud to host the first annual Digital Discovery Week in DCU. The idea of Digital Discovery Week is to show how computing is everywhere in our day to day lives and to engage those of us that are quite technical as well as those that may not be studying computing.
 

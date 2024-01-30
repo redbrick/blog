@@ -1,11 +1,9 @@
 ---
-title: Paul Bunbury - Redbrick Blog
+title: Paul Bunbury
 created: 2012-03-13T00:00:00
-modified: 2024-01-30T03:04:59
+modified: 2024-01-30T03:20:59
 author: polka
 ---
-
-# Paul Bunbury - Redbrick Blog
 
 Hi all,
 

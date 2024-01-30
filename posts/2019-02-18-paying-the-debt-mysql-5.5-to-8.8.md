@@ -1,14 +1,12 @@
 ---
 title: "Paying the Debt: MySQL 5.5 to 8.0"
 created: 2019-02-18T00:00:00
-modified: 2024-01-30T03:09:38
+modified: 2024-01-30T03:19:50
 tags:
   - admins
   - mysql
 author: m1cr0man
 ---
-
-# Paying the Debt: MySQL 5.5 to 8.0
 
 It cannot be denied that Redbrick’s services have been a bit wonky recently. Our uptime has been all over the place and our systems have been crumbling. As much as we would love to blame this on our hardware, this is not the case. RB’s tech stack has been a spaghetti monster for quite some time, having multiple appendages added to it over the years. Sufficient time has not been committed to keeping things up to date, and the tech debt has finally caught up with us in a major way.
 

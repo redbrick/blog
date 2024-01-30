@@ -1,15 +1,13 @@
 ---
 title: Admin Jones and the Redbrick Mail Stack
 created: 2020-05-30T00:00:00
-modified: 2024-01-30T03:10:00
+modified: 2024-01-30T03:19:45
 tags:
   - admins
   - nixos
   - mail
 author: m1cr0man
 ---
-
-# Admin Jones and the Redbrick Mail Stack
 
 ![New mail stack](https://blog.redbrick.dcu.ie/img/2020-05-30-mail.webp)
 
