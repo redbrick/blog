@@ -1,4 +1,15 @@
-# Accidental updates - Redbrick Blog
+---
+title: Accidental Updates
+created: 2018-04-02T00:00:00
+modified: 2024-01-30T03:09:06
+tags:
+  - admins
+  - web-md
+author: greenday
+---
+
+# Accidental Updates
+
 The Preamble
 ------------
 
@@ -52,11 +63,12 @@ hackmd=# VACUUM(FULL, ANALYZE, VERBOSE);
 
 ```
 
-
 What it turns out is the table’s index was wrong. While PostgreSQL’s attempt to update itself to 10 had failed it had modified the indexes for some of the tables and reverting the container didn’t magically fix the database inside.
 
 So the TL;DR.
 
-*   Always lock your container version
-*   containers don’t magically fix things
-*   And validate your database after modifying it
+* Always lock your container version
+
+* containers don’t magically fix things
+
+* And validate your database after modifying it

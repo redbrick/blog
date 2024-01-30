@@ -1,7 +1,15 @@
-# ISS Network Outage - Redbrick Blog
-published on December 19, 2011  
-author: polka  
-tags: [ISS](https://blog.redbrick.dcu.ie/tags/iss) [Network Outage](https://blog.redbrick.dcu.ie/tags/network%20outage)
+---
+title: ISS Network Outage
+created: 2011-12-19T00:00:00
+modified: 2024-01-30T03:03:38
+tags:
+  - admins
+  - iss
+  - network-outage
+author: polka
+---
+
+# ISS Network Outage
 
 Due to ISS network outages, Redbrick is going to experience some downtime on Wednesday the 21st and Thursday the 29th of December.
 

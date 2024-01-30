@@ -1,13 +1,12 @@
 ---
-author: distro
-title: Redbrick Maintenance with Nomad
+title: 2024-01-31-redbrick-maintenance-with-nomad
 created: 2024-01-27T02:46:52
-modified: 2024-01-30T02:10:22
+modified: 2024-01-30T02:58:37
 tags:
-  - blog
   - admins
   - nomad
   - nixos
+author: distro
 ---
 
 Hello there, (_all together_) General Kenobi!

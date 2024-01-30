@@ -1,4 +1,14 @@
-# Digital Discovery Week - Redbrick Blog
+---
+title: Digital Discovery Week
+created: 2011-11-13T00:00:00
+modified: 2024-01-30T03:02:45
+tags:
+  - techweek
+author: tziegler
+---
+
+# Digital Discovery Week
+
 Redbrick in association with the [Student’s Union](http://www.dcusu.ie/) are extremely proud to host the first annual Digital Discovery Week in DCU. The idea of Digital Discovery Week is to show how computing is everywhere in our day to day lives and to engage those of us that are quite technical as well as those that may not be studying computing.
 
 We have a whole week jam packed full of events that are aimed at everybody in DCU and we encourage everyone, not just Redbrick members, to come along to any event and learn something new.
@@ -16,7 +26,7 @@ _LG26 - Computing Building_
 
 How do you approach creating a website for a mobile device? What do you need to be aware of? Are there technical limitations? On Monday we’ll be showing you how to approach designing websites for mobile devices like iPhones and Android smartphones.
 
-#### Kickoff Drinks in Nubar - 6pm to late
+#### Kickoff Drinks in Nubar - 6pm to Late
 
 _Nubar in the Hub_
 
@@ -33,9 +43,9 @@ Workday have very kindly agreed to come to DCU to do a few quickfire talks. They
 
 What are they talking about?
 
-1.  Cloud Computing
-2.  Continuous 3Ds
-3.  You and The Software Industry
+1. Cloud Computing
+2. Continuous 3Ds
+3. You and The Software Industry
 
 Wednesday 16th
 --------------
@@ -55,7 +65,7 @@ Workshop presented by Dr. Theo Lynn - DCU Director of Leadership and Innovation.
 Thursday 17th
 -------------
 
-#### What’s inside your Computer? - 5pm to 7pm
+#### What’s Inside Your Computer? - 5pm to 7pm
 
 _L101 - Computing Building_
 

@@ -1,4 +1,15 @@
-# Paying the Debt: MySQL 5.5 to 8.0 - Redbrick Blog
+---
+title: "Paying the Debt: MySQL 5.5 to 8.0"
+created: 2019-02-18T00:00:00
+modified: 2024-01-30T03:09:38
+tags:
+  - admins
+  - mysql
+author: m1cr0man
+---
+
+# Paying the Debt: MySQL 5.5 to 8.0
+
 It cannot be denied that Redbrick’s services have been a bit wonky recently. Our uptime has been all over the place and our systems have been crumbling. As much as we would love to blame this on our hardware, this is not the case. RB’s tech stack has been a spaghetti monster for quite some time, having multiple appendages added to it over the years. Sufficient time has not been committed to keeping things up to date, and the tech debt has finally caught up with us in a major way.
 
 SELECT issues FROM mysql\_history;
@@ -19,7 +30,7 @@ Below you can see our MySQL Queries counter which clearly shows our 3-hour resta
 
 ![](https://blog.redbrick.dcu.ie/img/2019-02-18-metharme.webp)
 
-#### Metharme stats
+#### Metharme Stats
 
 None of our graphs indicated any sort of hardware limitation to be the culprit, and our only idea at this point was to (at least try) upgrade our instance. The apache logs and metrics were no help either as we do not have per-site insights into our performance (since we only have one Apache instance).
 
@@ -41,7 +52,6 @@ character_set_server=utf8mb3
 collation_server=utf8mb3_unicode_ci
 
 ```
-
 
 As it turns out, there’s almost no PHP support for the newer password hashes, and on top of the work required to convert the old passwords this ended up being a necessary change.
 
@@ -72,7 +82,7 @@ Metrics on the new instance have been deceptfully low, however. Here’s a scree
 
 ![](https://blog.redbrick.dcu.ie/img/2019-02-18-zeus.webp)
 
-#### Zeus stats
+#### Zeus Stats
 
 As you can see, we’re seeing a fraction of the traffic we had before, and things are just as performant as they always were. This would suggest that the service(s) to blame for killing 5.5 were either hard coded to use the old IP address or aren’t compatible with Percona 8.0.
 
