@@ -1,7 +1,11 @@
-# Programming Talks and Workshops - Redbrick Blog
-published on October 10, 2011  
-author: tziegler  
-tags: [talks](https://blog.redbrick.dcu.ie/tags/talks)
+---
+title: Programming Talks and Workshops
+created: 2011-10-10T00:00:00
+modified: 2024-01-30T03:21:16
+tags:
+  - talks
+author: tziegler
+---
 
 Well here we are in Week 3 already. How the hell did that happen? It has been a hectic week signing up all our new members and getting the Freshers ball sorted. But now I’d like to talk about what we’re doing with the feedback we’ve received from members so far.
 

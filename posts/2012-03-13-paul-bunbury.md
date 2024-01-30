@@ -1,6 +1,9 @@
-# Paul Bunbury - Redbrick Blog
-published on March 13, 2012  
+---
+title: Paul Bunbury
+created: 2012-03-13T00:00:00
+modified: 2024-01-30T03:20:59
 author: polka
+---
 
 Hi all,
 

@@ -1,6 +1,9 @@
-# New Redbrick Site Launched - Redbrick Blog
-published on September 26, 2011  
+---
+title: New Redbrick Site Launched
+created: 2011-06-26T00:00:00
+modified: 2024-01-30T03:21:18
 author: tziegler
+---
 
 Well here it is. Just a few hours later than scheduled the new Redbrick site is up and ready for you to explore. And we need you to do just that.
 

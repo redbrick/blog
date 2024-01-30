@@ -1,4 +1,14 @@
-# Admin Jones and the Redbrick Mail Stack - Redbrick Blog
+---
+title: Admin Jones and the Redbrick Mail Stack
+created: 2020-05-30T00:00:00
+modified: 2024-01-30T03:19:45
+tags:
+  - admins
+  - nixos
+  - mail
+author: m1cr0man
+---
+
 ![New mail stack](https://blog.redbrick.dcu.ie/img/2020-05-30-mail.webp)
 
 Redbrick has offered users a mail service for almost as long as we have existed. From our best records, our first mail server was set up between 1998 and 1999, back when the Bulletin Board System was our most valued service and people signed up in droves to message their mates. Nowadays, young brickies will probably need to Google what BBS is, but they definitely know about email.
@@ -21,10 +31,13 @@ Time to get technical (don’t worry, I’ll go back to less technical language 
 
 On top of simply upgrading all the components, there were a couple of big steps we would have to take that were obvious from the start:
 
-*   Mailman had been rewritten between 2 and 3, and they had a [massive document](https://docs.mailman3.org/en/latest/migration.html) on the update process.
-*   We needed to switch to our auto renewed Let’s Encrypt certificates to reduce the work on admins to maintain the services, since we already used them for our web infrastructure.
-*   Reducing the number of files in each Maildir would be nice, and so moving to Dovecot’s [MDBox format](https://wiki2.dovecot.org/MailboxFormat/dbox) would be a great improvement.
-*   Spam filtering needed to work on forwarded mail, and the `~/.forward` files needed to keep working. Adding [SRS](https://en.wikipedia.org/wiki/Sender_Rewriting_Scheme) would help too.
+* Mailman had been rewritten between 2 and 3, and they had a [massive document](https://docs.mailman3.org/en/latest/migration.html) on the update process.
+
+* We needed to switch to our auto renewed Let’s Encrypt certificates to reduce the work on admins to maintain the services, since we already used them for our web infrastructure.
+
+* Reducing the number of files in each Maildir would be nice, and so moving to Dovecot’s [MDBox format](https://wiki2.dovecot.org/MailboxFormat/dbox) would be a great improvement.
+
+* Spam filtering needed to work on forwarded mail, and the `~/.forward` files needed to keep working. Adding [SRS](https://en.wikipedia.org/wiki/Sender_Rewriting_Scheme) would help too.
 
 Did you hear we use NixOS?
 --------------------------
@@ -61,14 +74,12 @@ swaks --to mctastic@redbricktest.ml --from m1cr0man@redbricktest.ml --auth PLAIN
 
 ```
 
-
 Next up was moving [Dovecot](https://dovecot.org/) to Nix. This wasn’t any easier than deploying Postfix - our configs were a mess so we just rewrote them from scratch adopting any best practices we could find along the way. When it came to migrating the mail to mdbox, it was as simple as running this command:
 
 ```
 dsync mirror -A -1 maildir:~/Maildir
 
 ```
-
 
 It did take 8 hours to run, but what do you expect with 20 years of history, and all that Cron spam admins got?
 

@@ -1,4 +1,11 @@
-# Google Week - Redbrick Blog
+---
+title: Google Week
+created: 2014-10-07T00:00:00
+modified: 2024-01-30T03:20:14
+tags:
+  - newsletter
+---
+
 It’s week 3 and Redbrick our kicking off our events for the year with a bang!
 
 It’s Google Week! A week filled with talks from Googlers, DCU graduates and associate Redbrick members on things like Site Reliability Engineering, and Systems at Scale.
