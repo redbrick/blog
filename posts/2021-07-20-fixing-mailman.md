@@ -1,7 +1,7 @@
 ---
 title: Fixing Mailman - An Insight
 created: 2021-07-20T00:00:00
-modified: 2024-01-31T02:42:10
+modified: 2024-01-31T02:54:13
 tags:
   - admins
   - mail
@@ -61,7 +61,7 @@ We ran a test, sure enough the mailing list mail arrived directly to our inboxes
 
 ## Episode 6: Return of the Invalid Byte Sequence
 
-As we happily skipped along our theoretical road and began to ask the Oldmins, "well how do we update these mailing lists now to add new people?", we opened lists.redbrick.dcu.ie to find something even more hideous than a Django error (something worse than that should be illegal tbh), lo and behold, a JSON error.
+As we happily skipped along our theoretical road and began to ask the Oldmins, "well how do we update these mailing lists now to add new people?", we opened https://lists.redbrick.dcu.ie to find something even more hideous than a Django error (something worse than that should be illegal tbh), lo and behold, a JSON error.
 
 ![unhelpful error](https://i.imgur.com/OtUIxJK.png)
 
