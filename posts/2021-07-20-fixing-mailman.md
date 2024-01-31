@@ -1,14 +1,13 @@
 ---
+title: Fixing Mailman - An Insight
 created: 2021-07-20T00:00:00
-modified: 2024-01-31T02:37:25
+modified: 2024-01-31T02:42:10
 tags:
   - admins
   - mail
   - postgres
 author: distro
 ---
-
-# The Fixing of Mailman - An Insight
 
 This document aims to outline key events and conclusions involved in fixing Redbrick's Mailman to return it to an operational state.
 
