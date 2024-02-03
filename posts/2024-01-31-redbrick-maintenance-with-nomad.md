@@ -39,7 +39,7 @@ Downtime in the world of Aperture is a joy to perform. A combination of ansible 
 
 To start, we can "drain" Nomad clients. This essentially empties the node of allocations, and can mark the node as ineligible which tells the scheduler to not place anything on it. This means that all of the jobs are stopped gracefully on the node and can be replaced almost instantly on another client, meaning a service is stopped for roughly as long as a docker container takes to start.
 
-![Drain Nomad Client](../.res/nomad_drain_client.png)
+![Drain Nomad Client](../res/nomad_drain_client.png)
 
 Once the drain has been completed, we can then look to performing our changes to the host without fear of any extra downtime or data corruption to the jobs. In this instance, we upgraded the Nomad and Consul binaries on one host at a time. Once we had completed the apt upgrade, we could comfortably make the node eligible for allocations again and move on to the next host, repeating the same process.
 
