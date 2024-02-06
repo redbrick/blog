@@ -49,8 +49,8 @@ The freedom and peace of mind this gives cannot be understated. Imagine you knew
 
 Downtime cannot be completely minimized in a few instances though. Moving the [Bastion VM](https://docs.redbrick.dcu.ie/aperture/bastion-vm/) takes a little longer because of the nature of virtual machines and how quickly they spin up. It means that anything relying on ingress provided by the Bastion (see: web and Minecraft at the time of writing) will be interrupted. Luckily, restoring service is relatively easy. Backups of the `qcow2` file can be served on a simple webserver for the Nomad client to download, and subsequently start. As the image was copied from a node that is connected to Nomad, starting the image back up will reconnect to Nomad also.
 
-> [!NOTE] Note for Admins
-> When modifying the host that contains the Bastion VM, it's advisable to drain the virtual machine first, then come back to the parent client and drain it. It will ensure that Nomad doesn't mark the Bastion VM as "down", rather than illegible. Any allocations on the Bastion VM will then also be placed as soon as it comes back online with little to no delay.
+> [!NOTE]
+> **Note for Admins**: When modifying the host that contains the Bastion VM, it's advisable to drain the virtual machine first, then come back to the parent client and drain it. It will ensure that Nomad doesn't mark the Bastion VM as "down", rather than illegible. Any allocations on the Bastion VM will then also be placed as soon as it comes back online with little to no delay.
 
 ## You Mentioned Ansible, What is That?
 
