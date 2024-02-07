@@ -7,7 +7,7 @@ tags:
 author: distro
 ---
 
-Hi all, we'd like to inform you of the outcome of the EGM held today in L125 to amend the constitution and elect and a new Systems Administrator.
+Hi all, we'd like to inform you of the outcome of the EGM held today in L125 to amend the constitution and elect a new Systems Administrator.
 
 ## Results of Election
 
@@ -49,7 +49,7 @@ Section 2.7 on the old constitution was moved to 2.6 on the new one.
 
 ### Section 5
 
-The changes in this section pertain to the election of "technical roles" onto the Redbrick Committee. The three roles have been combined into one as they all fall under the same rules.
+The changes in this section pertain to the election of "technical roles" onto the Redbrick Committee. The election criteria for the three roles have been combined into one, since they all fall under the same rules.
 
 ```diff
 + 5.3 To be deemed fit for election to the position of Systems Administrator, Webmaster or Helpdesk, the candidate must pass an aptitude test, set by the following people for their respective roles:
@@ -67,7 +67,7 @@ The changes in this section pertain to the election of "technical roles" onto th
 
 ### Section 6
 
-Ordering of the committee has changed, with "Core" roles being introduced. This means the society is allowed function with just the 4 core members, and is considered functional when it has those 4 members.
+Ordering of the committee has changed, with "Core" roles being introduced. This means the society is allowed to function with just the 4 core members, and is considered functional when it has those 4 members.
 
 Section 6.7 in the old Constitution has been removed as it falls into the duties of the treasurer.
 
