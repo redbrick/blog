@@ -1,5 +1,5 @@
 ---
-title: Images from Space! For Those Who Missed My Satellite Transmissions Talk
+title: Satellite Transmissions: Images from Space!
 created: 2024-02-08T16:56:00
 tags:
    - hackerclub 
