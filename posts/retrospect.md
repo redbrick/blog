@@ -11,7 +11,7 @@ author: browner
 
 Hey Brickies!
 
-This week, I held a talk _right_ after the recent EGM, about a cool topic that I felt like sharing to more people like myself (nerds - uhhh, I mean fellow Brickies! ...) Not a lot of folks had heard about the act of intercepting transmissions from satellites ~800km above our heads, or even that it's possible. That's where me and my ramblings came into play...
+This week, I held a talk _right_ after the [recent EGM](2024-02-07-egm-results.md), about a cool topic that I felt like sharing to more people like myself (nerds - uhhh, I mean fellow Brickies! ...) Not a lot of folks had heard about the act of intercepting transmissions from satellites ~800km above our heads, or even that it's possible. That's where me and my ramblings came into play...
 
 Unfortunately, a few people who were interested in listening to me talk about satellites were unable to attend the Hackerclub event. I thought to myself, "Great! Less eyes on me, less nerves for my first ever talk!", but these people genuinely wanted to know more about the subject (_Am I just the best hype-man or what?!_)
 
