@@ -90,8 +90,7 @@ The next tutorial is with the use of SDR software and equipment, and is a little
 
 ## Things to keep in mind: 
 
-* **ALL CAPS DO NOT UNDER _ANY_ CIRCUMSTANCES** press the transmit button on your radio without an amateur radio license. This is illegal to do, even if there is no transmission on a frequency. It is also illegal to do. Did I mention it's illegal? **PLEASE** do **NOT**
-press the transmit button. I claim no responsibility for ComReg going Ruby Ridge on your ass. Please be careful, and if you cannot trust yourself, you can [unbind the transmission button](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwid5pTX-5yEAxU-T0EAHWvrCjwQFnoECA0QAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsnKmYrMWGHo&usg=AOvVaw3U8wcPWwQBemRdYqeSTbnY&opi=89978449).
+* **DO NOT under _any_ circumstances** press the transmit button on your radio without an amateur radio license. This is illegal to do, even if there is no transmission on a frequency. It is also illegal to do. Did I mention it's illegal? **Please** do **not** press the transmit button. I claim no responsibility for ComReg going Ruby Ridge on your ass. Please be careful, and if you cannot trust yourself, you can [unbind the transmission button](https://www.youtube.com/watch?v=snKmYrMWGHo).
 
 * Satellites as they pass overhead are subject to Doppler Shift. You may notice on your SDR that the visualiser starts to slowly move out of the focus that you have set, or you may notice the audio become slightly static-y as the passover continues. You can mitigate this a little by changing the frequency to counteract the Doppler Shift, but this eventually leads to the signal disappearing once the transmission is complete. You shouldn't have to shift more than a couple of Mhz either side of the original Downlink. 
 
