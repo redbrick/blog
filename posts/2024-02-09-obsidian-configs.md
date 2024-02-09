@@ -1,7 +1,7 @@
 ---
 title: Distro's Guide to Obsidian Configs
 created: 2024-02-09T16:07:54
-modified: 2024-02-09T16:47:09
+modified: 2024-02-09T16:48:39
 tags:
   - obsidian
 author: distro
@@ -86,7 +86,7 @@ Of course, this is again optional and not crucial to me taking notes.
 
 #### Cookbook/Recipes
 
-I store recipes in my vault so I always have access to them and their ingredients to generate a shopping list (see [shopping list](#Shopping List)).
+I store recipes in my vault so I always have access to them and their ingredients to generate a shopping list (see [Shopping List](#Shopping%20List)).
 
 ```
 TABLE WITHOUT ID
