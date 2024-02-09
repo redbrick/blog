@@ -15,7 +15,7 @@ This week, I held a talk _right_ after the [recent EGM](2024-02-07-egm-results.m
 
 Unfortunately, a few people who were interested in listening to me talk about satellites were unable to attend the Hackerclub event. I thought to myself, "Great! Less eyes on me, less nerves for my first ever talk!", but these people genuinely wanted to know more about the subject (_Am I just the best hype-man or what?!_)
 
-So, this blog post is a little recap of what I talked about for those who did not have the honor of listening to me yap on about it in-person! Welcome to this Redbrick Recap, on Satellite Transmissions, as a topic and as a hobby!
+So, this blog post is a little recap of what I talked about for those who did not have the honour of listening to me yap on about it in-person! Welcome to this Redbrick recap on this week's Hackerclub: Satellite Transmissions, as a topic and as a hobby!
 
 ##  A little bit of Trivia...
 
