@@ -17,7 +17,7 @@ A great example is a recipe book. People write recipes down so they can pass the
 
 ## Markdown
 
-Markdown is computer file format that is essentially a glorified `.txt` file. It uses special symbols to inform styling instead of proprietary formats like Word or Google Docs. This makes it _super_ transportable. You can edit markdown files in _any_ text editor.
+Markdown is a computer file format that is essentially a glorified `.txt` file. It uses special symbols (or syntax) to inform styling instead of proprietary rich-text formats like Word or Google Docs. This makes it _super_ transportable. You can edit markdown files in _any_ text editor.
 
 I won't go into detail about how to actually write markdown, [GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) already have a pretty good guide on it. What I am going to talk about is what I use to edit markdown, and the tools I use to enhance it.
 
@@ -27,7 +27,7 @@ Before we get into the configs though, it is important I mention how I sort my n
 
 [Obsidian](https://obsidian.md) is a text editor, specifically a markdown text editor. It uses local storage first so your notes are private (but you can back them up in many ways), it has community plugins which extend and enhance your note taking experience, and most importantly it looks really cool.
 
-There are mobile and desktop applications, but as I say you don't need to exclusively use Obsidian to view your notes. You can use `vim` or `nano`, or even VSCode to view and modify it. Obsidian is just what I've chosen.
+There are mobile and desktop applications, but as I say you don't need to exclusively use Obsidian to view your notes. You can use `vim` or `nano`, or even VSCode (with the [foam](https://github.com/foambubble/foam) extension) to view and modify your [digital garden](https://maggieappleton.com/garden-history). Obsidian is just what I've chosen.
 
 ### Obsidian Plugins
 
