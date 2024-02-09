@@ -1,7 +1,7 @@
 ---
 title: Distro's Guide to Obsidian Configs
 created: 2024-02-09T16:07:54
-modified: 2024-02-09T16:13:59
+modified: 2024-02-09T16:20:17
 tags:
   - obsidian
 author: distro
@@ -65,7 +65,7 @@ GROUP BY file.link
 
 This snippet collects every task I have marked as not yet completed inside my Projects and Areas/Homelab directory. This is largely where the tasks I create are placed. The filter is necessary due to the fact that my recipes also use tasks to note the ingredients. We end up with something that looks like this. The number beside the blue link is the count of tasks in that file.
 
-![[../res/2024-02-09-obsidian_tasks_list.png]]
+![2024-02-09-obsidian_tasks_list](../res/2024-02-09-obsidian_tasks_list.png)
 
 I also have a section called "Tasks completed today" which is purely used for a dopamine hit.
 
@@ -80,7 +80,7 @@ LIMIT 10
 
 Sometimes it's nice to see a list of recently edited files. It means you can view quickly where you last left off on something, and may mean that you remember to finish something you were doing.
 
-![[../res/2024-02-09-obsidian_recently_edited.png]]
+![2024-02-09-obsidian_recently_edited](../res/2024-02-09-obsidian_recently_edited.png)
 
 Of course, this is again optional and not crucial to me taking notes.
 
@@ -96,7 +96,7 @@ FROM #recipe and -"3 - Resources/Templates"
 sort desc
 ```
 
-![[../res/2024-02-09-obsidian_recipe_list.png]]
+![2024-02-09-obsidian_recipe_list](../res/2024-02-09-obsidian_recipe_list.png)
 
 The nice thing about this table is that it includes the total prep time beside it. You can filter the recipes further as I have, or leave it all in the one big block.
 
@@ -111,7 +111,7 @@ WHERE !completed
 GROUP BY file.link
 ```
 
-![[../res/2024-02-09-obsidian_shopping_list.png]]
+![2024-02-09-obsidian_shopping_list](../res/2024-02-09-obsidian_shopping_list.png)
 
 Very simple, very effective.
 
@@ -138,7 +138,7 @@ This is a template I can insert very quickly, and means that it will automatical
 
 It ends up looking like this:
 
-![[../res/2024-02-09-obsidian_recipe_template.png]]
+![2024-02-09-obsidian_recipe_template](../res/2024-02-09-obsidian_recipe_template.png)
 
 ## Shortcuts
 
