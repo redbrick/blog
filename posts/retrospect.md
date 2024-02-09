@@ -76,7 +76,7 @@ Once the signal starts to fade out, you can stop recording and save the file as 
 
 Last few steps! To decode your audio file, navigate to [apt.open-weather.community](apt.open-weather.community). Select the Choose File button, and upload your EXPORTED .wav. Keep the same settings selected that the website provides (Absolute Value), and then decode! 
 
-Wait a moment for the magic to happen, et voila! All going well, you'll have a looooooong image that somewhat looks like an aerial view. Mess around with the channel settings and the 'seconds' input to try catch a good part of your recording. Then, press and hold to save.
+Wait a moment for the magic to happen, et voila! All going well, you'll have a *looooooong* image that somewhat looks like an aerial view. Mess around with the channel settings and the `seconds` input to try catch a good part of your recording. Then, press and hold to save.
 
 All going well, you can tell everyone that you have successfully detected, intercepted and decoded vital observation data from a foreign nation's active orbiting satellites, and be a big flex on all your friends who are none the wiser! (or who do not really care!) Easy, right? 
 
