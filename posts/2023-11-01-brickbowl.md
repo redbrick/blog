@@ -1,6 +1,11 @@
 ---
 created: 2024-02-10T01:14:55
 modified: 2024-02-10T15:27:35
+title: Brickbowl 23/24
+author: orb
+tags:
+  - event
+  - trip
 ---
 What does Redbrick have to do with bowling? Not a whole lot.
 
