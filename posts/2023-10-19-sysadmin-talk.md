@@ -1,6 +1,7 @@
 ---
+title: SysAdmin Talk 23/24
 created: 2024-02-10T00:28:23
-modified: 2024-02-10T01:04:42
+modified: 2024-02-10T01:07:56
 tags:
   - admins
   - event
