@@ -23,48 +23,51 @@ So, for those who have absolutely no clue about satellites, for your information
 
 The most notable object in space is probably the International Space Station, established in 1998. It was founded for housing astronauts and cosmonauts in space for conducting scientific research and international relations. It's still up there, about 400km above our heads, somewhere between us and the stars. It serves as a great example of international co operation, especially between the USA and Russia post Cold War. You can see a live stream of a camera that is fitted onto the ISS via official ISS sites and also Youtube live streams. But you can also track its current position in relation to Earth on the website [n2yo.com](n2yo.com) . More on that site later.
 
-Pic: https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTjj8FfYzpaI0nfj_bj7NkaAc1cnf1gEnjCSGqOMT2GF8oNEnxIHrBg_wEywajqum_K
+![International Space Station](https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTjj8FfYzpaI0nfj_bj7NkaAc1cnf1gEnjCSGqOMT2GF8oNEnxIHrBg_wEywajqum_K)
 
-Another organisation that uses satellites actively is the National Oceanic and Atmospheric Administration (NOAA). This organisation deployed a fleet of 11 satellites  for Earth observation, including for weather research purposes. Some of these satllites, the GOES- series are _geostationary_ satellites, meaning that they stay in the same position (relative to us on the ground,) as the Earth rotates. However, some of their other satellites, the NOAA- series, are known as _polar orbiting satellites_, which orbit about the Earth's poles. These, when observed in person, appear to move in one straight line across our skies, and in a wave pattern when tracked on a map (as seen on [N2YO.com](n2yo.com)) In fact, some of these NOAA satellites pass over Ireland from time to time. Let's circle back to that in a while...
+Another organisation that uses satellites actively is the **National Oceanic and Atmospheric Administration** (NOAA). This organisation deployed a fleet of 11 satellites for Earth observation, including weather research purposes. Some of these satellites, the GOES- series, are [geostationary](https://en.wikipedia.org/wiki/Geostationary_orbit) satellites, meaning that they stay in the same position (relative to us on the ground) as the Earth rotates. However, some of their other satellites, the NOAA- series, are known as [polar orbiting satellites](https://en.wikipedia.org/wiki/Polar_orbit), which orbit about the Earth's poles. These, when observed in person, appear to move in one straight line across our skies, and in a wave pattern when tracked on a map (as seen on [N2YO.com](https://n2yo.com)) In fact, some of these NOAA satellites pass over Ireland from time to time. Let's circle back to that in a while...
 
 ## Well, what's it to me?!
 
-Well, reader, most satellites operate behind encrypted data transmission or communications for security or privacy purposes. After all, most of these satellites are used for government services or to provide mass communications to civilians back home. However, all satellites (that you are allowed to know about, at least...) are tracked and can be mapped live, using handy websites such as the previously mentioned [N2YO.com](n2yo.com).
+Well, reader, most satellites operate behind encrypted data transmission or communications for security or privacy purposes. After all, most of these satellites are used for government services or to provide mass communications to civilians back home. However, all satellites (that you are allowed to know about, at least...) are tracked and can be mapped live, using handy websites such as the previously mentioned [N2YO.com](https://n2yo.com).
 
-Best of all, satellites have even pulled the curtain a little bit in order to allow civilians to intercept some Earth-bound transmissions via amateur radio frequencies. So, for a select amount of satellites, you can tune to a certain Downlink (or listening) frequency and receive packets of data as the satellite passes by us at several kilometres a second. Pretty cool, right?!
+Best of all, satellites have even pulled the curtain a little bit in order to allow civilians to intercept some Earth-bound transmissions via amateur radio frequencies. So, for a select amount of satellites, you can tune to a certain [Downlink](https://en.wikipedia.org/wiki/Telecommunications_link#Downlink) frequency and receive packets of data as the satellite passes by us at several kilometres a second. Pretty cool, right?!
 
-There are a few other examples of data transmission that can be intercepted from certain satellites. The ISS and some other satellites may host [Slow Scan Television](https://en.wikipedia.org/wiki/Slow-scan_television) events on certain transmitter test periods, or notable dates/anniversaries; over the course of a few days, a similar method to before is used to transmit data that, when decoded, displays a picture! These can be thought of as a sort of postcard that has been 'sent' to Earth by certain satellites. Some satellites may also facilitate repeater functionality for amateur radio, so that you can communicate to other hams across the globe (Don't get me STARTED on amateur radio, whoooole other kettle of fish.) The ISS can even facilitate amateur radio contact](https://www.ariss.org/), so you can talk with astronauts on board! 
+There are a few other examples of data transmission that can be intercepted from certain satellites. The ISS and some other satellites may host [Slow Scan Television](https://en.wikipedia.org/wiki/Slow-scan_television) events on certain transmitter test periods, or notable dates/anniversaries; over the course of a few days, a similar method to before is used to transmit data that, when decoded, displays a picture! These can be thought of as a sort of postcard that has been 'sent' to Earth by certain satellites. Some satellites may also facilitate repeater functionality for amateur radio, so that you can communicate to other hams across the globe (don't get me *started* on amateur radio, whole other kettle of fish). The ISS can even facilitate [amateur radio contact](https://www.ariss.org/), so you can talk with astronauts on board! 
 
-Pic: An example of an SSTV decoded image https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/SSTV_reception.png/220px-SSTV_reception.png
+![SSTV decoded image](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/SSTV_reception.png/220px-SSTV_reception.png)
 
 
-I frequently follow the schedules for when the NOAA- satellites that pass over Ireland (and transmit in amateur radio,) so that I can listen in on these frequencies. As the satellites reach their maximum elevation for a passover, you can hear the data transmissions come in through the radio/radio software you are using (more on these two later.) If you tune in via any old amateur radio device, such as a [Baofeng UV5R](https://baofengtech.com/product/uv-5r/), you can record the data being transmitted to be decoded in to an image. There is another method to get a cleaner output, such as using a Software Defined Radio (SDR) Dongle paired with SDR software, to get it directly to your laptop with much less backgrond noise. 
+I frequently follow the schedules for when the NOAA- satellites pass over Ireland (and transmit in amateur radio,) so that I can listen in on these frequencies. As the satellites reach their maximum elevation for a passover, you can hear the data transmissions come in through the radio/radio software you are using (more on these two later). If you tune in via any old amateur radio device, such as a [Baofeng UV5R](https://baofengtech.com/product/uv-5r/), you can record the data being transmitted to be decoded in to an image. There is another method to get a cleaner output, such as using a [Software Defined Radio](https://en.wikipedia.org/wiki/Software-defined_radio) (SDR) Dongle paired with SDR software, to get it directly to your laptop with much less background noise. 
 
-Pic: Me in my jim-jams using SDR software and bunny ears to catch a passover from my back garden! Credit: My dad for taking a photo of me looking like a tin foil hat person. 
+![Using SDR software to catch a passover from my garden](PASTE LINK HERE)
+**Me in my jim-jams using SDR software and bunny ears to catch a passover from my back garden! Credit: My dad for taking a photo of me looking like a tin foil hat person.**
 
 **Hint:** The main satellites for NOAA passovers in Ireland are **NOAA-15**, **-18** and **-19**. These, to my knowledge, are the only satellites in the fleet that pass over Ireland AND transmit via amateur radio.
 
-Here's one of the photos I've gotten form passovers from my back garden: 
+Here's one of the photos I've got from passovers from my back garden: 
 
-Pic: 28.8.2023 transmission. 
+![28.8.2023 transmission](PASTE LINK IN HERE)
 
-I will be giving a tutorial of how to listen in on the NOAA- satellites on 1) An amateur radio device and 2) using SDR software, as well as how to decode the images in the next section. 
+I will be giving a tutorial on how to listen in on the NOAA- satellites on;
+1. An amateur radio device and;
+2. SDR software, as well as how to decode the images in the next section. 
 
-## The Tutorial (Finally!) - Links will be at the end for equipment
+## The Tutorial (Finally!)
 
 Lets start with the amateur radio tutorial. Here's what you'll need: 
 
-1) An amateur radio
-2) An android phone with the application 'Android Wave Editor' installed.
-3) An open space, such as a field or garden with few obstructions. 
+1. An amateur radio
+2. An android phone with the application 'Android Wave Editor' installed.
+3. An open space, such as a field or garden with few obstructions. 
 
-Start out by going on to [N2YO.com](n2y0.com). Sign up for an account, and create a location i.e your house. Set your current location to this, and navigate to the Most Tracked list. You will easily find the NOAA- satellites here. Select either NOAA-19, -15 or -18, and select the 10 day predictions. Your screen should look like this: 
+Start out by going to [N2YO.com](https://n2y0.com). Sign up for an account, and create a location *i.e* your house. Set your current location to this, and navigate to the Most Tracked list. You will easily find the NOAA- satellites here. Select either NOAA-19, -15 or -18, and select the 10 day predictions. Your screen should look like this: 
 
-Pic: NOAA-15 predictions page as an example https://jeremyclark.ca/wp/wp-content/uploads/2022/03/noaa15predict-1024x682.jpg
+![NOAA-15 example predictions](https://jeremyclark.ca/wp/wp-content/uploads/2022/03/noaa15predict-1024x682.jpg)
 
-This shows a list of times where NOAA-15 will pass over the selected location; it is also colour coded based on how visible the satellite will be, from white (barely visible) to orange (very visible.) However, the more important is the **Max** Section, which lists the time at which the maximum angle is achieved. This is when the signal will be clearest for a clean recording, so even if you are late to the start of the transmission, as long as you aim for this time in bold, you'll catch it at its clearest. Also, pay attention to the Max El. angle. You want a passover where this number is above 65/70 degrees, and the closer to 90 the better. On this page you'll also notice the Downlink frequency; take a note, as this is what you'll set your radio to. 
+This shows a list of times where NOAA-15 will pass over the selected location; it is also colour coded based on how visible the satellite will be, from white (barely visible) to orange (very visible). However, the more important is the **Max** section, which lists the time at which the maximum angle is achieved. This is when the signal will be clearest for a clean recording, so even if you are late to the start of the transmission, as long as you aim for this time in bold, you'll catch it at its clearest. Also, pay attention to the **Max El.** angle. You want a passover where this number is above ~70 degrees, and the closer to 90 the better. On this page you'll also notice the Downlink frequency; take a note, as this is what you'll set your radio to. 
 
-Next step, wait for the passover! Get out in to the open space a few minutes before the START (not before the peak, or you risk running late and missing the Max elevation!) and get ready for the satellite passing. Make sure you are clear of buildings in your surroundings. If it's windy or rainy, this may affect both the reception of the transmission and the quality of your recording. So if you have a good passover on a bad day, maybe consider rescheduling to another time/day, so you get to increase the quality of your interception and so you can keep that equipment nice and dry!
+Next step, wait for the passover! Get out in to the open space a few minutes before the *start* (not before the peak, or you risk running late and missing the Max elevation!) and get ready for the satellite passing. Make sure you are clear of buildings in your surroundings. If it's windy or rainy, this may affect both the reception of the transmission and the quality of your recording. So if you have a good passover on a bad day, maybe consider rescheduling to another time/day, so you get to increase the quality of your interception and so you can keep that equipment nice and dry!
 
 Tune in to the Downlink frequency a couple of minutes before the passover is scheduled to start, so that you can hear the frequency fade in, and it allows you ample time to set up the recording application. 
 
@@ -74,7 +77,7 @@ Pay attention to the Max elevation time, and start recording ~ 1 minute before t
 
 Once the signal starts to fade out, you can stop recording and save the file as a memorable name to your phone. Then, re-enter the audio file and export as .WAV with an encoding value of 11025 (this should be the default settings for export. ) Choose a memorable name discernible from the unexperted file. I tend to use the date and time of the passover as my file names, and then  add an 'exp_' to the start of the file when exporting. 
 
-Last few steps! To decode your audio file, navigate to [apt.open-weather.community](apt.open-weather.community). Select the Choose File button, and upload your EXPORTED .wav. Keep the same settings selected that the website provides (Absolute Value), and then decode! 
+Last few steps! To decode your audio file, navigate to https://apt.open-weather.community. Select the `Choose File` button, and upload your *exported* `.wav`. Keep the same settings selected that the website provides (Absolute Value), and then decode! 
 
 Wait a moment for the magic to happen, et voila! All going well, you'll have a *looooooong* image that somewhat looks like an aerial view. Mess around with the channel settings and the `seconds` input to try catch a good part of your recording. Then, press and hold to save.
 
