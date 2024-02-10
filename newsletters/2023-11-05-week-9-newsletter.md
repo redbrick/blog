@@ -1,5 +1,5 @@
 ---
-title: Week 9 Newsletter
+title: 23/24 Semester 1 Week 9 
 created: 2023-11-05T20:18:09
 modified: 2023-11-05T20:18:09
 tags:

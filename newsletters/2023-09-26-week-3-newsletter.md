@@ -1,5 +1,5 @@
 ---
-title: Week 3 Newsletter
+title: 23/24 Semester 1 Week 3 
 created: 2023-09-26T21:12:36
 modified: 2023-09-26T21:12:36
 tags:

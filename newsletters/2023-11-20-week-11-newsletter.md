@@ -1,5 +1,5 @@
 ---
-title: Week 11 Newsletter
+title: 23/24 Semester 1 Week 11 
 created: 2023-11-20T22:58:22
 modified: 2023-11-20T22:58:22
 tags:

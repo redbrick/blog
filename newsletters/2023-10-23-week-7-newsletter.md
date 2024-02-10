@@ -1,5 +1,5 @@
 ---
-title: Week 7 Newsletter
+title: 23/24 Semester 1 Week 7 
 created: 2023-10-23T10:07:24
 modified: 2023-10-23T10:07:24
 tags:

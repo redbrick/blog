@@ -1,5 +1,5 @@
 ---
-title: Week 5 Newsletter
+title: 23/24 Semester 1 Week 5 
 created: 2023-10-08T23:39:46
 modified: 2023-10-08T23:39:46
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Week 8 Newsletter
+title: 23/24 Semester 1 Week 8 
 created: 2023-10-30T19:10:38
 modified: 2023-10-30T19:10:38
 tags:

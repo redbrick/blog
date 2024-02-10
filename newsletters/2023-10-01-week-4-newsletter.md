@@ -1,5 +1,5 @@
 ---
-title: Week 4 Newsletter
+title: 23/24 Semester 1 Week 4 
 created: 2023-10-01T21:37:55
 modified: 2023-10-01T21:37:55
 tags:

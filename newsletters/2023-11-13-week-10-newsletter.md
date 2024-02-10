@@ -1,5 +1,5 @@
 ---
-title: Week 10 Newsletter
+title: 23/24 Semester 1 Week 10 
 created: 2023-11-13T23:25:13
 modified: 2023-11-13T23:25:13
 tags:

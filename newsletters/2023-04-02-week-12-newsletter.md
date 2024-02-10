@@ -1,5 +1,5 @@
 ---
-title: Week 12 Newsletter
+title: 22/23 Semester 2 Week 12 
 created: 2023-04-02T22:26:47
 modified: 2023-04-02T22:26:47
 tags:

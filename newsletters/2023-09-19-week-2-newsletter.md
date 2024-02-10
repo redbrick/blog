@@ -1,5 +1,5 @@
 ---
-title: Week 2 Newsletter
+title: 23/24 Semester 1 Week 2 
 created: 2023-09-19T22:52:59
 modified: 2023-09-19T22:52:59
 tags:

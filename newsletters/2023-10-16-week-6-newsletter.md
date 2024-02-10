@@ -1,5 +1,5 @@
 ---
-title: Week 6 Newsletter
+title: 23/24 Semester 1 Week 6 
 created: 2023-10-16T09:41:13
 modified: 2023-10-16T09:41:13
 tags:
