@@ -85,10 +85,18 @@ All going well, you can tell everyone that you have successfully detected, inter
 
 You'll get the hang of it. It's like riding a bike. 
 
-The next tutorial is with the use of SDR software and equipment, and is a little trickier to set up. You'll need: 
+## Laptop Tutorial (sort of)
 
-1) An SDR antenna kit (linked at the end of this article)
+The next tutorial is with the use of SDR software on a laptop and equipment, and is a little trickier to set up. HOWEVER, this blog would probably be about 300 more lines if I were to go into each intricacy of this tutorial. As I did in Hackerclub, I am just going to recommend [this video](https://youtu.be/icADyjm3PBE?si=_4fToj79v7n5tI54) I got the tutorial from, a channel called 'saveitforparts' on YouTube. He can explain it 10x better than I can express in a text passage, as well as the previous amateur radio tutorial, so check it out! (Also, be sure to check out the other videos on his YouTube channel; it's a great dive in to a bunch of niche hobbies/tutorials to do with satellite transmissions and beyond!)
 
+If you're brave enough, there is a Raspberry Pi image for decoding - do this at risk of your own sanity, link is in the description of the video. 
+
+With this tutorial you'll need: 
+
+1) An [SDR antenna kit](https://www.amazon.com/RTL-SDR-Blog-RTL2832U-Software-Defined/dp/B0BMKB3L47)
+2) [A noise reducer](https://www.amazon.com/Nooelec-SAWbird-NOAA-Ultra-Low-Applications/dp/B07TWPR871)(Optional, helps with reducing noise on the transmision!)
+3) A laptop with SDR software installed (such as [SDR++](https://www.sdrpp.org/))
+4) Decoding software (such as [SatDump](https://github.com/SatDump/SatDump) or [NOAA-APT decoder](https://noaa-apt.mbernardi.com.ar/))
 
 
 ## Things to keep in mind: 
@@ -97,11 +105,15 @@ The next tutorial is with the use of SDR software and equipment, and is a little
 
 * Satellites as they pass overhead are subject to [Doppler Shift](https://en.wikipedia.org/wiki/Doppler_effect). You may notice on your SDR that the visualiser starts to slowly move out of the focus that you have set, or you may notice the audio become slightly static-y as the passover continues. You can mitigate this a little by changing the frequency to counteract the Doppler Shift, but this eventually leads to the signal disappearing once the transmission is complete. You shouldn't have to shift more than a couple of Mhz either side of the original Downlink. 
 
-* With that being said, if youre using a handheld amateur radio, tilt the radio in the direction that the satellite is currently positioned. This may help to polarize your receiver with the transmitter, and get a better signal overall. 
+* With that being said, if youre using a handheld amateur radio, tilt the radio in the direction that the satellite is currently positioned. This may help to polarize your receiver with the transmitter, and get a better signal overall.
 
-## Further Reading, Viewing and Links
+* You should probably consider fake SDR kits when purchasing equipment. Keep to the link I sent in or the links in any of the tutorials that you will watch, as fake dongles may be malicious or tuned to the wrong frequencies. 
 
+Anyways, 112 lines is an awful lot of yapping on my end, and my fingertips agree with me. If you found this blog interesting, useful, amazing, best thing you've ever set eyes upon etc, please do reach out to me and let me know! My discord is @BrownerUnderscore. Also, if something goes awry in your setup, or you would like some help with navigating any of the steps, drop me a text and I'll get back to you as soon as I can - I am more than happy to help, you're not annoying me at all : D
 
+Either way, thank you so much for reading, Brickies. Take it easy, happy intercepting! 
+
+~browner
 
 
 
