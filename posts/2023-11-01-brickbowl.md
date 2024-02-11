@@ -18,8 +18,8 @@ Something about the idea of rolling a heavy ball down a shiny wooden lane toward
 
 We found out after arriving that there was a pizza place next door, but instead of having to leave the comfort of our lanes, they would actually deliver straight to us! Ain't that sweet.
 
-![brickbowl2023](../res/Pasted%20image%2020240210152347.png)
+![brickbowl2023](../res/brickbowl.png)
 
 Plenty of committee and brickies came along, and there were many shenanigans on the bus to the venue in Blanchardstown. Event was enjoyed by all, and a visit to Workman's was much needed after the antics of the evening. Once the pints started flowing, there weren't many pictures taken, so this will have to suffice:
 
-![roses-handover-wizzdom-pluto](../res/Pasted%20image%2020240210152711.png)
+![roses-handover-wizzdom-pluto](../res/roses-handover-wizzdom-pluto.png)
