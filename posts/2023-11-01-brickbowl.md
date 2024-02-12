@@ -1,7 +1,7 @@
 ---
 title: Brickbowl 23/24
 created: 2023-11-01T01:14:55
-modified: 2024-02-11T19:49:26
+modified: 2024-02-12T00:14:11
 tags:
   - event
   - trip
@@ -14,7 +14,7 @@ How much do we care? Also, not a whole lot.
 
 Something about the idea of rolling a heavy ball down a shiny wooden lane towards some helpless wooden pins really appeals to people. There something almost sadistic about the desire to knock down *all* those pins. To be fair, it is immensely satisfying.
 
-![brickbowl-scores](../res/Pasted%20image%2020240211194417.png)
+![brickbowl-scores](../res/brickbowl-scores.png)
 
 We found out after arriving that there was a pizza place next door, but instead of having to leave the comfort of our lanes, they would actually deliver straight to us! Ain't that sweet.
 
