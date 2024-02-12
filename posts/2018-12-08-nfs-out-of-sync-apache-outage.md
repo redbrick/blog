@@ -30,9 +30,9 @@ Fix
 
 * Error logs were investigated
 
-    * Apache error logs gave an error of the following
+* Apache error logs gave an error of the following
 
-    ```
+```
 
 [Sat Dec 08 11:53:33 2018] [error] [client 66.249.81.152] (1)Operation not permitted: file permissions deny server access: /webtree/redbrick/rb_custom_error/403.html
 
@@ -56,10 +56,10 @@ Fix
 
 ```
 
-    
-    *   This lead us to view logs from dmsg
-    
-    ```
+
+*   This lead us to view logs from `dmsg`
+
+```
 [36821900.601330] NFS: Server 192.168.0.24 reports our clientid is in use
 [36821900.605982] NFS: state manager: lease expired failed on NFSv4 server 192.168.0.24 with error 1
 [36821905.612160] NFS: Server 192.168.0.24 reports our clientid is in use
@@ -115,8 +115,8 @@ Fix
 
 ```
 
-    *   From this an admin identified the error “clientid is in use” can mean that NFS (Netword File Storage) and server (Web Server) were out of sync
-    *   This means that there were error messages to do with permissions
+*   From this an admin identified the error “clientid is in use” can mean that NFS (Netword File Storage) and server (Web Server) were out of sync
+*   This means that there were error messages to do with permissions
 
 * The next step was to try unmount the NFS and remount it
 
@@ -134,4 +134,4 @@ Fix
 
 On behalf of the admin team we appologise for the outage
 
-Regards, greenday && The admin Team
+Regards, `greenday` && The admin Team

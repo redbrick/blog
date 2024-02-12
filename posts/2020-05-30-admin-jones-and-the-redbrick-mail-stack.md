@@ -122,4 +122,4 @@ Finally, the experience of running a mail server is essential for anyone looking
 
 Hopefully people can start to enjoy Redbrick mail and use it for what it was originally intended for - socialising! We admins have already started some new mailing lists to discuss future changes, and we have received positive feedback from many users on the reduced spam.
 
-m1cr0man && The admin Team
+`m1cr0man` && The admin Team

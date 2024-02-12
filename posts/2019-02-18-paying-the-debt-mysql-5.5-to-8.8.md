@@ -86,4 +86,4 @@ As you can see, we’re seeing a fraction of the traffic we had before, and thin
 
 To this date, we have encountered no issues with MySQL nor have any users contacted us about any site issues. It’s safe to say, MySQL is fixed.
 
-m1cr0man && The admin Team
+`m1cr0man` && The admin Team
