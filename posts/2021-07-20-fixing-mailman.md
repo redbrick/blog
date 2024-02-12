@@ -23,7 +23,7 @@ We exported the database from SQLite to our test VM, ready to import it into the
 
 As soon as we loaded the database dump into postgres using [`pgloader`](https://github.com/dimitri/pgloader), we got bombarded with extremely long errors, saying nothing but..
 
-![invalid everything](https://i.imgur.com/NCDRTq2.png)
+![invalid everything](../res/NCDRTq2.png)
 
 **Yikes.** What does that mean? Surely some weird special character is messing up the importing.
 
@@ -37,7 +37,7 @@ We were so close.. As it turns out, Mailman stores some data as python Pickle's,
 
 Kyle joins the call - curious about our progress. Morales low and all the straws grasped by now, we had no idea where to go. In a wonderful shift to the narrative, Kyle begins to dump the database into a MySQL compatible dump format, and we import it..
 
-![importing db](https://i.imgur.com/LmeTLpt.gif)
+![importing db](../res/LmeTLpt.gif)
 
 Oh my fucking god. There's no errors.. it's running for a while.. that's good right? Almost. We successfully imported the dump into the database, however as it turns out, some of the tables had relations to each other that were lost in the dump process. This prevented the database from working fully. On top of this, SQLite's database fields were not nearly as descriptive and varied as Postgres, causing Postgres to assume data types, causing casting errors later on.
 
@@ -63,7 +63,7 @@ We ran a test, sure enough the mailing list mail arrived directly to our inboxes
 
 As we happily skipped along our theoretical road and began to ask the Oldmins, "well how do we update these mailing lists now to add new people?", we opened https://lists.redbrick.dcu.ie to find something even more hideous than a Django error (something worse than that should be illegal tbh), lo and behold, a JSON error.
 
-![unhelpful error](https://i.imgur.com/OtUIxJK.png)
+![unhelpful error](../res/OtUIxJK.png)
 
 Wow what a specific and helpful error! Boy this sure will help me debug the exact cause  of the problem due to the enormous amount of detail this error provides, I can't wait to fix this problem!
 
@@ -79,7 +79,7 @@ Armed with the approval of the smelly old men in the `#rootholders` retirement h
 
 We also set up forwarding with Postfix aliases in NixOS so that we could get any email addressed to the old ones, sent to the new ones. A slight recursion problem and over 9000 emails held for review later, we managed to figure out that having the postmaster user as the owner of the list, and also sending the postmaster bounce emails, wasn't a good idea.
 
-![That's a lot of emails.](https://i.imgur.com/W3IbIVF.png)
+![That's a lot of emails.](../res/W3IbIVF.png)
 
 ## Conclusion
 

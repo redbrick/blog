@@ -26,7 +26,7 @@ Diagnosing this failure was very difficult. There are hundreds of websites on Re
 
 Below you can see our MySQL Queries counter which clearly shows our 3-hour restart hack. Where it flatlines is where the service was down.
 
-![](https://blog.redbrick.dcu.ie/img/2019-02-18-metharme.webp)
+![](../res/2019-02-18-metharme.webp)
 
 #### Metharme Stats
 
@@ -78,7 +78,7 @@ With the DNS now switched, there was no real turning back. Data was already writ
 
 Metrics on the new instance have been deceptfully low, however. Here’s a screenshot of our metrics the day this post was made.
 
-![](https://blog.redbrick.dcu.ie/img/2019-02-18-zeus.webp)
+![](../res/2019-02-18-zeus.webp)
 
 #### Zeus Stats
 
