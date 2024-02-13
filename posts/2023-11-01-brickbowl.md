@@ -8,9 +8,8 @@ tags:
 author: orb
 ---
 
-What does Redbrick have to do with bowling? Not a whole lot.
-
-How much do we care? Also, not a whole lot.
+> *What does Redbrick have to do with bowling?* Not a whole lot.
+> *How much do we care?* Also, not a whole lot.
 
 Something about the idea of rolling a heavy ball down a shiny wooden lane towards some helpless wooden pins really appeals to people. There something almost sadistic about the desire to knock down *all* those pins. To be fair, it is immensely satisfying.
 
