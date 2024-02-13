@@ -1,7 +1,7 @@
 ---
 title: Missing Member
 created: 2012-02-04T00:00:00
-modified: 2024-01-30T03:21:07
+modified: 2024-02-12T23:08:37
 tags:
   - FindPaulB
 ---
@@ -11,11 +11,11 @@ One of our members has been reported as missing to the Gardai.
 If anyone has seen Paul Bunbury(bunbun) since Thursday the 2nd of February at approx. 4pm can they please either contact Whitehall Garda Station on 01 666 4500 or get in touch with us.
 
 **Update**: A poster has been made. Please print it off and put it up in your local area, no matter where you are.  
-![bunbun_small](https://blog.redbrick.dcu.ie/post/missing-member/bunbun_small.jpg)
+![bunbun_small](../res/bunbun_small.jpg)
 
 [Email Us](mailto:committee@redbrick.dcu.ie)
 
-Here’s the post made on boards.ie about him, it includes a picture of him: [http://tinyurl.com/75bhc5j](http://tinyurl.com/75bhc5j) ![bunbun](https://blog.redbrick.dcu.ie/post/missing-member/bunbun.jpg)
+Here’s the post made on boards.ie about him, it includes a picture of him: [http://tinyurl.com/75bhc5j](http://tinyurl.com/75bhc5j) ![bunbun](../res/bunbun.jpg)
 
 Please retweet this post or make another post to twitter with the hashtag \#FindPaulB [http://tinyurl.com/FindPaulB](http://tinyurl.com/FindPaulB)
 

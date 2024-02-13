@@ -9,7 +9,7 @@ tags:
 author: m1cr0man
 ---
 
-![New mail stack](https://blog.redbrick.dcu.ie/img/2020-05-30-mail.webp)
+![New mail stack](../res/2020-05-30-mail.webp)
 
 Redbrick has offered users a mail service for almost as long as we have existed. From our best records, our first mail server was set up between 1998 and 1999, back when the Bulletin Board System was our most valued service and people signed up in droves to message their mates. Nowadays, young brickies will probably need to Google what BBS is, but they definitely know about email.
 
@@ -25,7 +25,7 @@ Old admins and members were able to provide some great insight into the history 
 Exposition
 ----------
 
-![The spam mail](https://blog.redbrick.dcu.ie/img/2020-05-30-mails.webp)
+![The spam mail](../res/2020-05-30-mails.webp)
 
 Time to get technical (don’t worry, I’ll go back to less technical language after this). What we had was a Ubuntu 14.04 server (called Paphos) running Exim 4.82 and Dovecot 2.2.9 - the latter released in _November 2013_. We were using [Maildir](https://en.wikipedia.org/wiki/Maildir)\-based mail storage which was written to each user’s home directory on our network storage. Any users that wanted to read their Redbrick mail could use [mutt](http://www.mutt.org/) via SSH login, or our [Rainloop webmail portal](https://webmail.redbrick.dcu.ie/). It wasn’t possible to connect an external mail client to the system to send mail for…some reason. Our spam filtering was handled by Spam Assassin, and Mailman 2 took care of (well, tried to) mailing lists + archives. Finally, the vast majority of users were using `~/.forward` files to forward their mail to their DCU address, and since this is the default behaviour for new accounts most users simply expected this to continue to work.
 
@@ -97,7 +97,7 @@ Again, it was worth it, since we now have Redbrick announce [dating back to 1999
 Security, Speed, Simplicity. Choose three
 -----------------------------------------
 
-![Good headers on new mail](https://blog.redbrick.dcu.ie/img/2020-05-30-headers.webp)
+![Good headers on new mail](../res/2020-05-30-headers.webp)
 
 Making the new mail stack secure was the most important goal for the rebuild. Historically we’ve had a lot of issues around users spoofing mail from DCU addresses, in particular high profile people, and we’ve had no way to track who it was. We also get a LOT of spam since unfortunately a lot of users use their Redbrick address as their burner address.
 
@@ -105,7 +105,7 @@ Postfix will now only send mail for our domain if the user is properly authentic
 
 We also spam filter incoming _and_ outgoing mail. As mentioned earlier, we can’t inherently trust users inside our network. We also set up Dovecot sieve scripts to train the spam filter. If a user moves mail in or out of their spam folder, it will be recorded as spam or ham respectively. This has worked wonders, and we’re seeing a large portion of spam filtered on the basis of these rules.
 
-![Rspamd stats](https://blog.redbrick.dcu.ie/img/2020-05-30-rspamd.webp)
+![Rspamd stats](../res/2020-05-30-rspamd.webp)
 
 Finally we added all the usual standards for signing our outgoing mail and looking like a real domain. We have valid SPF, DKIM, and DMARC records for all mail, and any mail forwarded through us has SRS applied appropriately. This prevents Gmail marking email from us or through us as spam. Over time this should heal our spam rating too.
 
@@ -122,4 +122,4 @@ Finally, the experience of running a mail server is essential for anyone looking
 
 Hopefully people can start to enjoy Redbrick mail and use it for what it was originally intended for - socialising! We admins have already started some new mailing lists to discuss future changes, and we have received positive feedback from many users on the reduced spam.
 
-m1cr0man && The admin Team
+`m1cr0man` && The admin Team
