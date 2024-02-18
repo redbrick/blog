@@ -21,7 +21,7 @@ So, this blog post is a little recap of what I talked about for those who did no
 
 So, for those who have absolutely no clue about satellites, for your information, there are around 8,377 active satellites in our humble Earth's orbit; and most of these lie within [Low Earth Orbit](https://en.wikipedia.org/wiki/Low_Earth_orbit) (a distance of 2000km.) In total, there are between 25-28,000 objects orbiting Earth. I don't know where we all signed off on putting a bunch of junk so close to our orbit, but that's a conversation for another day. The United States are responsible for around 3,000 of the currently active 8,377 active satellites, thanks to huge deployments from companies [like SpaceX](https://en.wikipedia.org/wiki/List_of_Starlink_and_Starshield_launches) et al. Satellites that orbit us are primarily used for communications, positioning, Earth observation and navigation.  
 
-The most notable (man-made) object in space is probably the International Space Station, established in 1998. It was founded for housing astronauts and cosmonauts in space for conducting scientific research and international relations. It's still up there, about 400km above our heads, somewhere between us and the stars. It serves as a great example of international co-operation, especially between the USA and Russia post Cold War. You can see a live stream of a camera that is fitted onto the ISS via official wesites and also Youtube live streams. But you can also track its current position in relation to Earth on the website [n2yo.com](https://www.n2yo.com). More on that site later.
+The most notable (man-made) object in space is probably the International Space Station, established in 1998. It was founded for housing astronauts and cosmonauts in space for conducting scientific research and international relations. It's still up there, about 400km above our heads, somewhere between us and the stars. It serves as a great example of international co-operation, especially between the USA and Russia post Cold War. You can see a live stream of a camera that is fitted onto the ISS via official websites and also Youtube live streams. You can also track its current position in relation to Earth on the website [n2yo.com](https://www.n2yo.com). More on that site later.
 
 ![International Space Station](https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTjj8FfYzpaI0nfj_bj7NkaAc1cnf1gEnjCSGqOMT2GF8oNEnxIHrBg_wEywajqum_K)
 
@@ -41,7 +41,8 @@ There are a few other examples of data transmission that can be intercepted from
 I frequently follow the schedules for when the NOAA- satellites pass over Ireland (and transmit in amateur radio,) so that I can listen in on these frequencies. As the satellites reach their maximum elevation for a passover, you can hear the data transmissions come in through the radio/radio software you are using (more on these two later). If you tune in via any old amateur radio device, such as a [Baofeng UV5R](https://baofengtech.com/product/uv-5r/), you can record the data being transmitted to be decoded in to an image. There is another method to get a cleaner output, such as using a [Software Defined Radio](https://en.wikipedia.org/wiki/Software-defined_radio) (SDR) Dongle paired with SDR software, to get it directly to your laptop with much less background noise. 
 
 ![Using SDR software to catch a passover from my garden](/res/SDRpic.png)
-**Me in my jim-jams using SDR software and bunny ears to catch a passover from my back garden! Credit: My dad for taking a photo of me looking like a tin foil hat person.**
+
+*Me in my jim-jams using SDR software and bunny ears to catch a passover from my back garden! Credit: My dad for taking a photo of me looking like a tin foil hat person.*
 
 **Hint:** The main satellites for NOAA passovers in Ireland are **NOAA-15**, **-18** and **-19**. These, to my knowledge, are the only satellites in the fleet that pass over Ireland AND transmit via amateur radio.
 
@@ -103,22 +104,12 @@ With this tutorial you'll need:
 
 * Satellites as they pass overhead are subject to [Doppler Shift](https://en.wikipedia.org/wiki/Doppler_effect). You may notice on your SDR that the visualiser starts to slowly move out of the focus that you have set, or you may notice the audio become slightly static-y as the passover continues. You can mitigate this a little by changing the frequency to counteract the Doppler Shift, but this eventually leads to the signal disappearing once the transmission is complete. You shouldn't have to shift more than a couple of Mhz either side of the original Downlink. 
 
-* With that being said, if youre using a handheld amateur radio, tilt the radio in the direction that the satellite is currently positioned. This may help to polarize your receiver with the transmitter, and get a better signal overall.
+* With that being said, if you're using a handheld amateur radio, tilt the radio in the direction that the satellite is currently positioned. This may help to polarise your receiver with the transmitter, and get a better signal overall.
 
-* You should probably consider fake SDR kits when purchasing equipment. Keep to the link I sent in or the links in any of the tutorials that you will watch, as fake dongles may be malicious or tuned to the wrong frequencies. Any of the links in saveitforparts' video should be fine.
+* You should be wary of fake SDR kits when purchasing equipment. Keep to the link I sent in or the links in any of the tutorials that you will watch, as fake dongles may be malicious or tuned to the wrong frequencies. Any of the links in saveitforparts' video should be fine.
 
 Anyways, 112 lines is an awful lot of yapping on my end, and my fingertips agree with me. If you found this blog interesting, useful, amazing, best thing you've ever set eyes upon etc, please do reach out to me and let me know! My discord is @BrownerUnderscore. Also, if something goes awry in your setup, or you would like some help with navigating any of the steps, drop me a text and I'll get back to you as soon as I can - I am more than happy to help, you're not annoying me at all : D
 
 Either way, thank you so much for reading, Brickies. Take it easy, happy intercepting! 
 
 ~browner
-
-
-
-
-
-
-
-
-
-
