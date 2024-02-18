@@ -108,7 +108,7 @@ With this tutorial you'll need:
 
 * You should be wary of fake SDR kits when purchasing equipment. Keep to the link I sent in or the links in any of the tutorials that you will watch, as fake dongles may be malicious or tuned to the wrong frequencies. Any of the links in saveitforparts' video should be fine.
 
-Anyways, 112 lines is an awful lot of yapping on my end, and my fingertips agree with me. If you found this blog interesting, useful, amazing, best thing you've ever set eyes upon etc, please do reach out to me and let me know! My discord is @BrownerUnderscore. Also, if something goes awry in your setup, or you would like some help with navigating any of the steps, drop me a text and I'll get back to you as soon as I can - I am more than happy to help, you're not annoying me at all : D
+Anyways, 109 lines is an awful lot of yapping on my end, and my fingertips agree with me. If you found this blog interesting, useful, amazing, best thing you've ever set eyes upon etc, please do leave a comment below. Also, if something goes awry in your setup, or you would like some help with navigating any of the steps, drop me a comment and I'll get back to you as soon as I can - I am more than happy to help : D
 
 Either way, thank you so much for reading, Brickies. Take it easy, happy intercepting! 
 
