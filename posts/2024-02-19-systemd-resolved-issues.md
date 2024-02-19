@@ -23,7 +23,7 @@ If you don't know what's this `cron` does, it restarts the service that configur
 
 Not exactly a long term solution.
 
-## The Real Resolution (`dig @ns1.rb.dcu.ie)
+## The Real Resolution (`dig @ns1.rb.dcu.ie`)
 
 We can tell `dhcpcd` to not update `resolv.conf` during it's lease renew by adding a hook to the workflow.
 
