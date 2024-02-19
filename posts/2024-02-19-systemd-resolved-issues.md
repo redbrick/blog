@@ -19,7 +19,7 @@ mojito@glados:~ sudo crontab -l
 * */1 * * * systemctl restart systemd-resolved.service`
 ```
 
-If you don't know what's this `cron` does, it restarts the service that configures DNS on `aperture` every hour. It's like replacing your sink because you haven't properly turned off your tap.
+If you don't know what this `cron` does, it restarts the service that configures DNS on `aperture` every hour. It's like replacing your sink because you haven't properly turned off your tap.
 
 Not exactly a long term solution.
 
