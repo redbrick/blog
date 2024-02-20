@@ -2,10 +2,10 @@
 title: Satellite Transmissions - Images from Space!
 created: 2024-02-08T16:56:00
 tags:
-   - hackerclub 
-   - satellite
-   - transmission
-   - radio
+  - events
+  - hackerclub
+  - tutorial
+  - satellites
 author: browner
 ---
 
@@ -40,7 +40,7 @@ There are a few other examples of data transmission that can be intercepted from
 
 I frequently follow the schedules for when the NOAA- satellites pass over Ireland (and transmit in amateur radio,) so that I can listen in on these frequencies. As the satellites reach their maximum elevation for a passover, you can hear the data transmissions come in through the radio/radio software you are using (more on these two later). If you tune in via any old amateur radio device, such as a [Baofeng UV5R](https://baofengtech.com/product/uv-5r/), you can record the data being transmitted to be decoded in to an image. There is another method to get a cleaner output, such as using a [Software Defined Radio](https://en.wikipedia.org/wiki/Software-defined_radio) (SDR) Dongle paired with SDR software, to get it directly to your laptop with much less background noise. 
 
-![Using SDR software to catch a passover from my garden](/res/SDRpic.png)
+![Using SDR software to catch a passover from my garden](../res/SDRpic.png)
 
 *Me in my jim-jams using SDR software and bunny ears to catch a passover from my back garden! Credit: My dad for taking a photo of me looking like a tin foil hat person.*
 
@@ -48,7 +48,7 @@ I frequently follow the schedules for when the NOAA- satellites pass over Irelan
 
 Here's one of the photos I've got from passovers from my back garden: 
 
-![28.8.2023 transmission](/res/avhrr_apt_B_Equalized.png)
+![28.8.2023 transmission](../res/avhrr_apt_B_Equalized.png)
 
 So, wanna learn how to do it? : )
 

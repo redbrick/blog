@@ -4,14 +4,13 @@ created: 2011-11-13T00:00:00
 modified: 2024-01-30T03:21:13
 tags:
   - techweek
+  - conferences
 author: tziegler
 ---
 
 Redbrick in association with the [Student’s Union](http://www.dcusu.ie/) are extremely proud to host the first annual Digital Discovery Week in DCU. The idea of Digital Discovery Week is to show how computing is everywhere in our day to day lives and to engage those of us that are quite technical as well as those that may not be studying computing.
 
 We have a whole week jam packed full of events that are aimed at everybody in DCU and we encourage everyone, not just Redbrick members, to come along to any event and learn something new.
-
-**Visit [DigitalDiscovery.dcu.ie](http://digitaldiscovery.dcu.ie/) for updated event info.**
 
 Here’s a rundown of what’s happening:
 
@@ -75,5 +74,3 @@ Friday 18th
 _Mahony Hall in the Helix_
 
 To finish off the week we’ll have some world leaders in social media speak in the Helix. More details to follow.
-
-**Visit [DigitalDiscovery.dcu.ie](http://digitaldiscovery.dcu.ie/) for updated event info.**

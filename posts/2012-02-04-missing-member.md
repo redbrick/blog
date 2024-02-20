@@ -2,8 +2,7 @@
 title: Missing Member
 created: 2012-02-04T00:00:00
 modified: 2024-02-12T23:08:37
-tags:
-  - FindPaulB
+author: polka
 ---
 
 One of our members has been reported as missing to the Gardai.
