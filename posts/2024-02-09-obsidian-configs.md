@@ -3,6 +3,7 @@ title: Distro's Guide to Obsidian Configs
 created: 2024-02-09T16:07:54
 modified: 2024-02-09T16:48:39
 tags:
+  - tutorial
   - obsidian
 author: distro
 ---

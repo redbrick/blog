@@ -3,6 +3,7 @@ title: Redbrick Linux Installfest
 created: 2013-11-18T00:00:00
 modified: 2024-01-30T03:20:19
 tags:
+  - events
   - linux
   - installfest
 author: polka
