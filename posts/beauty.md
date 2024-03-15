@@ -13,15 +13,21 @@ Lets start off with some prerequisites, then we can mix and match them to make s
 
 The `figlet` command is a handy [ASCII](https://en.wikipedia.org/wiki/ASCII) text generator, that turns the text you put in into an ASCII design, ready for you to copy and paste! Make some cool designs and say what you like with a cool emphasis! Once you install by entering `sudo apt install figlet`, you can call it by simply entering: `figlet your_text_here`. If all goes well, you'll have something like this:
 
-![Figlet command example](res/figlet screenshot.png)
+```
+ _   _  ___  _   _ _ __| |_ _____  _| |_    | |__   ___ _ __ ___
+| | | |/ _ \| | | | '__| __/ _ \ \/ / __|   | '_ \ / _ \ '__/ _ \
+| |_| | (_) | |_| | |  | ||  __/>  <| |_    | | | |  __/ | |  __/
+ \__, |\___/ \__,_|_|___\__\___/_/\_\\__|___|_| |_|\___|_|  \___|
+ |___/             |_____|             |_____|
+```
 
 While `figlet` is a cool,easy-to-use command to get some really quick ASCII designs, it is only limited to text. You can use some other resources to get pictures/graphics ASCII-ified, such as [manytools.org](https://manytools.org/hacker-tools/convert-images-to-ascii-art/). Here, you can take a certain logo that you like, edit how large or small it is, and you have your very own text-ified logo, like you would see in some cool hacker movie/videogame. More on that later...
 
 ## lolcat
 
-With the `lolcat` command, you can make your text into a rainbow! For example, you can type `lolcat file/path` and it will return that file's contents in rainbow style!
+With the `lolcat` command, you can make your text into a rainbow! For example, you can type `lolcat file/path` and it will return that file's contents in rainbow style! So, if I were to (for some reason) have an ASCII art of Hello Kitty in my system, it would look something like this:
 
-(proof)
+(proof of ascii kitty)
 
 You can also set cool flags that enhance the `lolcat` function, such as animations (hint: `-a [duration]` :D) Check out `lolcat -h`, explore the different functions, mess around with it a little! 
 ...
