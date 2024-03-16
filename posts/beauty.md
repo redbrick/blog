@@ -27,7 +27,7 @@ While `figlet` is a cool,easy-to-use command to get some really quick ASCII desi
 
 With the `lolcat` command, you can make your text into a rainbow! For example, you can type `lolcat file/path` and it will return that file's contents in rainbow style! So, if I were to (for some reason) have an ASCII art of Hello Kitty in my system, it would look something like this:
 
-(proof of ascii kitty)
+[!ascii kitty being rainbow-coloured in my terminal, thanks to lolcat. ](/res/ascii-kitty.png)
 
 You can also set cool flags that enhance the `lolcat` function, such as animations (hint: `-a [duration]` :D) Check out `lolcat -h`, explore the different functions, mess around with it a little! 
 ...
