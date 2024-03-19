@@ -30,13 +30,22 @@ With the `lolcat` command, you can make your text into a rainbow! For example, y
 [!ascii kitty being rainbow-coloured in my terminal, thanks to lolcat. ](/res/ascii-kitty.png)
 
 You can also set cool flags that enhance the `lolcat` function, such as animations (hint: `-a [duration]` :D) Check out `lolcat -h`, explore the different functions, mess around with it a little! 
-...
+
 
 ## cowsay
 
 This might be the silliest command, but you can use `cowsay` to have a cute little cow to talk to you in your CLI. Nothing fancy here, but awwwwww just look at the little guy (and he has so much to say, hear him out : ))
 
-(proof)
+```
+_______
+< hello >
+ -------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
 
 ## A Word on custom/changing bash commands
 
@@ -51,9 +60,37 @@ Add this command to the BOTTOM of your .bashrc file (type `cd`, press enter, the
 Tip: You can rename it to anything you like that isn't already a command installed on your OS. So get creative with the `alias` command, or be efficient, or both! 
 
 ## neofetch
-Now we can get in to some more detailed commands. `neofetch` is a handy command that shows
+Now we can get in to some more detailed commands. `neofetch` is a handy command that shows you some cool metrics about the device you are using. Maybe you know this info alreasy, but `neofetch` is just a handy and aesthetic looking way to quickly access it. Just type `neofetch` when you have it installed. Here's what it looks like: 
+
+```
+       _,met$$$$$gg.          user@hostname
+    ,g$$$$$$$$$$$$$$$P.       -----------
+  ,g$$P"     """Y$$.".        OS: Name
+ ,$$P'              `$$$.     Host: Name
+',$$P       ,ggs.     `$$b:   Kernel: Name
+`d$$'     ,$P"'   .    $$$    Uptime: 1 hour, 40 mins
+ $$P      d$'     ,    $$P    Packages: 530 (dpkg)
+ $$:      $$.   -    ,d$$'    Shell: bash 5.2.15
+ $$;      Y$b._   _,d$P'      Resolution: 1920x1080
+ Y$$.    `.`"Y$$$$P"'         Terminal: path
+ `$$b      "-.__              CPU: Name
+  `Y$$                        GPU: Name
+   `Y$$.                      
+     `$$b.                    Memory: xMiB / xMiB
+       `Y$$b.
+          `"Y$b._
+              `"""
+```
+
+
+You can even change it so that you have a custom design on it. The default is your OS's logo, such as Debian as showed above, but by defining it in the command you run, you can change the logo to any ASCII file you have saved (remember the ASCII image converter from earlier?). Just run `neofetch --ascii path/to/ascii` and run! (and  `| lolcat` works too!)
+
 
 ## OK, Practice time!
+So, let's put this all together, and create a cool custom startup animation...thingy. By editing the `.bashrc` file we talked about earlier, we can make it so that, on login, a bunch of the previously mentioned commands will display. So, `nano .bashrc` and let's get started. All of the commands we use will be available in wetty, so no need to `apt install` anything new. 
+
+In `.bashrc`, there are some important things defined already, so navigate to the end of the file and make a blank line. Start with a `clear`, so that no other login text displays; this leaves a blank slate. Next, we can put a Welcome message in figlet. 
+
 
 ##Other cool commands
 hollywood, tmux
