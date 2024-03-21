@@ -83,17 +83,55 @@ Now we can get in to some more detailed commands. `neofetch` is a handy command 
 ```
 
 
-You can even change it so that you have a custom design on it. The default is your OS's logo, such as Debian as showed above, but by defining it in the command you run, you can change the logo to any ASCII file you have saved (remember the ASCII image converter from earlier?). Just run `neofetch --ascii path/to/ascii` and run! (and  `| lolcat` works too!)
+You can even change it so that you have a custom design on it. The default is your OS's logo, such as Debian as showed above, but by defining it in the command you run, you can change the logo to any ASCII file you have saved (remember the ASCII image converter from earlier?). Just run `neofetch --ascii path/to/ascii` and run (oh, and  `| lolcat` works too!)
 
 
 ## OK, Practice time!
 So, let's put this all together, and create a cool custom startup animation...thingy. By editing the `.bashrc` file we talked about earlier, we can make it so that, on login, a bunch of the previously mentioned commands will display. So, `nano .bashrc` and let's get started. All of the commands we use will be available in wetty, so no need to `apt install` anything new. 
 
-In `.bashrc`, there are some important things defined already, so navigate to the end of the file and make a blank line. Start with a `clear`, so that no other login text displays; this leaves a blank slate. Next, we can put a Welcome message in figlet. 
+In `.bashrc`, there are some important things defined already, so navigate to the end of the file and make a blank line. Start with a `clear`, so that no other login text displays; this leaves a blank slate. Next, we can create a new line, and put a Welcome message in at the top using `figlet your_text_here`. I like to just put my Redbrick username as I might have other tabs open, so it allows me to quickly see what instance/account I am sshed into. 
 
+```
+      _       ___
+ _ __| |__   / / |__  _ __ _____      ___ __   ___ _ __
+| '__| '_ \ / /| '_ \| '__/ _ \ \ /\ / / '_ \ / _ \ '__|
+| |  | |_) / / | |_) | | | (_) \ V  V /| | | |  __/ |
+|_|  |_.__/_/  |_.__/|_|  \___/ \_/\_/ |_| |_|\___|_|
+```
+Make a new line, and let's throw in a `neofetch` with a custom ASCII. Find a logo you like (I was able to make a Redbrick image into ASCII, linked here for your use,) and convert it to ASCII - don't make the logo too big or it won't fit in the `neofetch`. Then save it as a file on your instance, then pass it to your neofetch command with the `--ascii` flag as before. 
 
-##Other cool commands
-hollywood, tmux
+How about a little `cowsay`, too? Do a new line, and have him say whatever you like, go nuts!
 
+```
+ _________________________________________
+< ohhhh BROTHER JUST END THE BLOG ALREADY >
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
 
+OK, OK, I'll leave the rest up to you guys. I had a lot of fun trying to figure out different animations and customisations that I could do, and managed to get a cool looking, Redbrick themed loading screen working, too. I reckon you can get it pretty easily!
 
+(my wetty loading screen)
+
+## Other cool commands
+There are a couple of other helpful commands that I cannot really go into detail about, but might be worth checking out. One of these is `tmux`, which allows you to split your CLI into multiple inmstances and swap between them, which is really helpful for keeping things neat and organised. There is a bit of a learning curve to learning how to use `tmux`, but there are plenty of online resources to show you how to use it
+
+`hollywood` starts an animation that looks straught out of a 90s movie where a computer is in the shot. Nothing else really to it, so I just left it as a little honourable mention. `cmatrix` is also a similar command, but for some Matrix visuals instead, in case you didn't catch that. 
+
+`sl` makes a cool train animation slide across your screen. If you did an admin exam recently, you may be reminded of the torture of that 24 hours as the steam locomotive chugs by. 
+
+`fortune` can be added to the likes of `figlet` and `cowsay` and gives a random quote/saying/anecdote every time it is run. There are a few different flags you can do, but the main use is just a random sentence or two. 
+
+```
+client:~$ fortune
+It's all in the mind, ya know.
+```
+
+Anywho, now that you have a few commands, as well as some experience editing `.bashrc`, go forth and do some more customisation of your own! Make your CLI that little bit less boring. If you have any suggestions for other commands that folks can use, please leave a comment down below!
+
+Signing off,
+`browner`
