@@ -115,8 +115,8 @@ How about a little `cowsay`, too? Do a new line, and have him say whatever you l
 
 OK, OK, I'll leave the rest up to you guys. I had a lot of fun trying to figure out different animations and customisations that I could do, and managed to get a cool looking, Redbrick themed loading screen working, too. I reckon you can get it pretty easily!
 
-(my wetty loading screen)
-
+<video src="/res/wetty.mp4" width="400px" height="300px" alt="browner's wetty loading screen, featuring a brick loading animation"></video>
+[![browner's wetty loading screen, featuring a brick loading animation](/res/wetty.mp4)](/res/wetty.mp4)
 ## Other cool commands
 There are a couple of other helpful commands that I cannot really go into detail about, but might be worth checking out. One of these is `tmux`, which allows you to split your CLI into multiple inmstances and swap between them, which is really helpful for keeping things neat and organised. There is a bit of a learning curve to learning how to use `tmux`, but there are plenty of online resources to show you how to use it
 
