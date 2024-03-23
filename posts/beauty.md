@@ -1,4 +1,3 @@
-##markdown
 
 Hey Brickies!
 
@@ -27,7 +26,7 @@ While `figlet` is a cool,easy-to-use command to get some really quick ASCII desi
 
 With the `lolcat` command, you can make your text into a rainbow! For example, you can type `lolcat file/path` and it will return that file's contents in rainbow style! So, if I were to (for some reason) have an ASCII art of Hello Kitty in my system, it would look something like this:
 
-[!ascii kitty being rainbow-coloured in my terminal, thanks to lolcat. ](/res/ascii-kitty.png)
+![ascii kitty being rainbow-coloured in my terminal, thanks to lolcat. ](/res/ascii-kitty.png)
 
 You can also set cool flags that enhance the `lolcat` function, such as animations (hint: `-a [duration]` :D) Check out `lolcat -h`, explore the different functions, mess around with it a little! 
 
@@ -55,7 +54,7 @@ By editing the .bashrc file, we can add our own custom `alias` to commands, to m
 
 `alias la="ls -a"`
 
-Add this command to the BOTTOM of your .bashrc file (type `cd`, press enter, then type `nano .bashrc` and scroll to the bottom of the file, then add it in there.) After you add it to .bashrc, CtrlS, CtrlX and give it a shot! 
+Add this command to the BOTTOM of your .bashrc file (type `cd`, press enter, then type `nano .bashrc` and scroll to the bottom of the file, then add it in there.) After you add it to `~/.bashrc`, CtrlS, CtrlX and give it a shot! 
 
 Tip: You can rename it to anything you like that isn't already a command installed on your OS. So get creative with the `alias` command, or be efficient, or both! 
 
