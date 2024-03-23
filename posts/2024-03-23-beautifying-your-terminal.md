@@ -1,14 +1,25 @@
+---
+title: Beautifying Your Terminal - Custom CLI Commands
+created: 2024-03-23
+modified: 
+author: browner
+tags:
+  - linux
+  - shell
+  - terminal
+  - beauty
+---
 
 Hey Brickies!
 
-As computing students, we all know that the best way to do anything on a PC is via the command line (how else would people know that you're in IT?!) And as Redbrick members, you are aware that you have a free to use wetty environment? (wetty.redbrick.dcu.ie)
+As computing students, we all know that the best way to do anything on a PC is via the command line (how else would people know that you're in IT?!) And as Redbrick members, you are aware that you have a free to use wetty environment? ([wetty.redbrick.dcu.ie](https://wetty.redbrick.dcu.ie))
 But while looking like a l33t hacker is great while you're doing God-knows-what in your terminal, sometimes that black and white window is just so... bland. 
 So, in this blog, let's explore some things you can do to make your terminal less boring, and in certain cases, more useful! 
 
 Lets start off with some prerequisites, then we can mix and match them to make some cool terminal displays...
 
 
- ## figlet command
+ ## `figlet` command
 
 The `figlet` command is a handy [ASCII](https://en.wikipedia.org/wiki/ASCII) text generator, that turns the text you put in into an ASCII design, ready for you to copy and paste! Make some cool designs and say what you like with a cool emphasis! Once you install by entering `sudo apt install figlet`, you can call it by simply entering: `figlet your_text_here`. If all goes well, you'll have something like this:
 
@@ -86,9 +97,9 @@ You can even change it so that you have a custom design on it. The default is yo
 
 
 ## OK, Practice time!
-So, let's put this all together, and create a cool custom startup animation...thingy. By editing the `.bashrc` file we talked about earlier, we can make it so that, on login, a bunch of the previously mentioned commands will display. So, `nano .bashrc` and let's get started. All of the commands we use will be available in wetty, so no need to `apt install` anything new. 
+So, let's put this all together, and create a cool custom startup animation...thingy. By editing the `.bashrc` file we talked about earlier, we can make it so that, on login, a bunch of the previously mentioned commands will display. So, `nano .bashrc` and let's get started. All of the commands we use will be available in `wetty`, so no need to `apt install` anything new. 
 
-In `.bashrc`, there are some important things defined already, so navigate to the end of the file and make a blank line. Start with a `clear`, so that no other login text displays; this leaves a blank slate. Next, we can create a new line, and put a Welcome message in at the top using `figlet your_text_here`. I like to just put my Redbrick username as I might have other tabs open, so it allows me to quickly see what instance/account I am sshed into. 
+In `.bashrc`, there are some important things defined already, so navigate to the end of the file and make a blank line. Start with a `clear`, so that no other login text displays; this leaves a blank slate. Next, we can create a new line, and put a Welcome message in at the top using `figlet your_text_here`. I like to just put my Redbrick username as I might have other tabs open, so it allows me to quickly see what instance/account I am ssh'ed into. 
 
 ```
       _       ___
@@ -97,7 +108,7 @@ In `.bashrc`, there are some important things defined already, so navigate to th
 | |  | |_) / / | |_) | | | (_) \ V  V /| | | |  __/ |
 |_|  |_.__/_/  |_.__/|_|  \___/ \_/\_/ |_| |_|\___|_|
 ```
-Make a new line, and let's throw in a `neofetch` with a custom ASCII. Find a logo you like (I was able to make a Redbrick image into ASCII, linked here for your use,) and convert it to ASCII - don't make the logo too big or it won't fit in the `neofetch`. Then save it as a file on your instance, then pass it to your neofetch command with the `--ascii` flag as before. 
+Make a new line, and let's throw in a `neofetch` with a custom ASCII. Find a logo you like (I was able to make a Redbrick image into ASCII, linked here for your use,) and convert it to ASCII - don't make the logo too big or it won't fit in the `neofetch`. Then save it as a file on your instance, then pass it to your `neofetch` command with the `--ascii` flag as before. 
 
 How about a little `cowsay`, too? Do a new line, and have him say whatever you like, go nuts!
 
@@ -117,9 +128,9 @@ OK, OK, I'll leave the rest up to you guys. I had a lot of fun trying to figure 
 <video src="/res/wetty.mp4" width="400px" height="300px" alt="browner's wetty loading screen, featuring a brick loading animation"></video>
 [![browner's wetty loading screen, featuring a brick loading animation](/res/wetty.mp4)](/res/wetty.mp4)
 ## Other cool commands
-There are a couple of other helpful commands that I cannot really go into detail about, but might be worth checking out. One of these is `tmux`, which allows you to split your CLI into multiple inmstances and swap between them, which is really helpful for keeping things neat and organised. There is a bit of a learning curve to learning how to use `tmux`, but there are plenty of online resources to show you how to use it
+There are a couple of other helpful commands that I cannot really go into detail about, but might be worth checking out. One of these is `tmux`, which allows you to split your CLI into multiple instances and swap between them, which is really helpful for keeping things neat and organised. There is a bit of a learning curve to learning how to use `tmux`, but there are plenty of online resources to show you how to use it
 
-`hollywood` starts an animation that looks straught out of a 90s movie where a computer is in the shot. Nothing else really to it, so I just left it as a little honourable mention. `cmatrix` is also a similar command, but for some Matrix visuals instead, in case you didn't catch that. 
+`hollywood` starts an animation that looks straight out of a 90's movie where a computer is in the shot. Nothing else really to it, so I just left it as a little honourable mention. `cmatrix` is also a similar command, but for some Matrix visuals instead, in case you didn't catch that. 
 
 `sl` makes a cool train animation slide across your screen. If you did an admin exam recently, you may be reminded of the torture of that 24 hours as the steam locomotive chugs by. 
 
