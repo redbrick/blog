@@ -2,7 +2,7 @@
 
 Hey Brickies!
 
-As computing students, we all know that the best way to do anything on a PC is via the command line (how else would people know that you're in IT?!) And as Redbrick members, you are aware that you have a free to use wetty environemnt? (wetty.redbrick.dcu.ie)
+As computing students, we all know that the best way to do anything on a PC is via the command line (how else would people know that you're in IT?!) And as Redbrick members, you are aware that you have a free to use wetty environment? (wetty.redbrick.dcu.ie)
 But while looking like a l33t hacker is great while you're doing God-knows-what in your terminal, sometimes that black and white window is just so... bland. 
 So, in this blog, let's explore some things you can do to make your terminal less boring, and in certain cases, more useful! 
 
