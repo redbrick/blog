@@ -56,7 +56,7 @@ The two main issues you can encounter are 403 or 404 errors.
 
 To resolve the 403 error you need to ensure you've run the two chmod commands that were shown above, especially if you've replaced files or added new ones. 
 
-For 404 errors you need to make sure that the site structure follows something similar to bellow. Particularly the placement and naming of `index.html`.
+For 404 errors you need to make sure that the site structure follows something similar to below. Particularly the placement and naming of `index.html`.
 ```
 public_html
 	index.html
