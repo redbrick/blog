@@ -70,4 +70,4 @@ Hopefully now you have your very own Redbrick webspace that you can show off to 
 
 If you have any issues/questions drop a message in `#helpdesk`.
 
-~fbaxter
+`~fbaxter`
