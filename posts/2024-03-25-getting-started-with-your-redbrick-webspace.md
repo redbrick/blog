@@ -68,3 +68,5 @@ For any other issues you may have, you can message in `#helpdesk` in the discord
 Hopefully now you have your very own Redbrick webspace that you can show off to your friends and ~~shill Redbrick~~ let them know how than can have their own!
 
 If you have any issues/questions drop a message in `#helpdesk`.
+
+~fbaxter
