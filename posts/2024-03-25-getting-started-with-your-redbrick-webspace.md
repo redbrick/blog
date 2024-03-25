@@ -63,11 +63,11 @@ public_html
 	{other_files}
 ```
 
-For any other issues you may have, you can message in `#helpdesk` in the discord server.
+For any other issues you may have, you can send a message in [`#helpdesk`](https://discord.redbrick.dcu.ie) in the discord server.
 
 ## Outro
 Hopefully now you have your very own Redbrick webspace that you can show off to your friends and ~~shill Redbrick~~ let them know how than can have their own!
 
-If you have any issues/questions drop a message in `#helpdesk`.
+If you have any issues/questions drop a message in [`#helpdesk`](https://discord.redbrick.dcu.ie).
 
 `~fbaxter`
