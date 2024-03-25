@@ -19,7 +19,7 @@ You must be asking: "Why would I use this **extremely awesome** and **free** ser
 ## How?
 So how do you make use of this great service? Well first you need a site to use. A great first site to use is the portfolio you created for CA106 (Web Design). You could also develop something else, either on your own system or directly on Redbrick server via SSH. For the sake of this tutorial we will assume a locally developed website to be pushed to your webspace.
 
-So first you pick and SFTP client of your choice. Most either gravitate to either [WinSCP](https://winscp.net/eng/index.php) or [FileZilla](https://filezilla-project.org/). I myself prefer WinSCP. The information you need to affectively connect to Redbrick servers with clients is shown bellow:
+So first you pick an SFTP client of your choice. Most either gravitate to either [WinSCP](https://winscp.net/eng/index.php) or [FileZilla](https://filezilla-project.org/). Personally, I prefer WinSCP. The information you need to effectively connect to Redbrick servers with clients is shown below:
 
 ```
 Hostname: pyg.redbrick.dcu.ie
